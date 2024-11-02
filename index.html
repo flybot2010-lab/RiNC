@@ -2,6 +2,48 @@
 <html>
     <head>
         <style>
+            * {
+                font-family: "Proxima Nova", sans-serif;
+                color: white;
+            }
+            @media
+            only screen and (-webkit-min-device-pixel-ratio: 2),
+            only screen and (   min--moz-device-pixel-ratio: 2),
+            only screen and (     -o-min-device-pixel-ratio: 2/1),
+            only screen and (        min-device-pixel-ratio: 2),
+            only screen and (                min-resolution: 192dpi),
+            only screen and (                min-resolution: 2dppx) {
+                .main {
+                margin: auto;
+                text-align: center;
+                margin-top: 15em;
+
+                }
+                header {
+                    height: 4em;
+                    padding: 1.5em;
+                    width: 100%;
+                    border-bottom: 1px solid #ffffff40;
+                    background-color: #101010;
+                    position: fixed;
+                    top: 0;
+                    left: 50;
+                }
+                .hero-image {
+                    height: 22.5em;
+                }
+                h4 {
+                color: #ffffff80;
+                font-weight: normal;
+                margin-top: .5em;
+                }
+                h2 {
+                    margin-bottom: .5em;
+                }
+                .headerlogo {
+                    height: 4em;
+                }
+            }
             body {
                 background-color: #202020;
                 margin: 0;
@@ -10,12 +52,12 @@
             .main {
                 margin: auto;
                 text-align: center;
-                margin-top: 7.5rem;
+                margin-top: 7.5em;
 
             }
             header {
-                height: 2rem;
-                padding: .75rem;
+                height: 2em;
+                padding: .75em;
                 width: 100%;
                 border-bottom: 1px solid #ffffff40;
                 background-color: #101010;
@@ -24,7 +66,7 @@
                 left: 50;
             }
             .hero-image {
-                height: 11.25rem;
+                height: 11.25em;
             }
             @font-face {
                 font-family: 'Proxima Nova', sans-serif;
@@ -44,20 +86,16 @@
                 font-weight: bold;
                 src: url(assets/fonts/Proxima\ Nova\ Bold.otf) format('otf');
             }
-            * {
-                font-family: "Proxima Nova", sans-serif;
-                color: white;
-            }
             h4 {
                 color: #ffffff80;
                 font-weight: normal;
-                margin-top: .25rem;
+                margin-top: .25em;
             }
             h2 {
-                margin-bottom: .25rem;
+                margin-bottom: .25em;
             }
             .headerlogo {
-                height: 2rem;
+                height: 2em;
             }
         </style>
     </head>
